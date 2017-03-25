@@ -1,3 +1,4 @@
+<h5><i>BTW: It is not finished</i></h5>
 <h1>Lífsleikni Game</h1>
 <h6>Github location can be found <a href="https://github.com/Strandor/Lifsleikni/">here</a>.</h6>
 <hr>
