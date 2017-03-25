@@ -15,3 +15,5 @@
 <h6>Not yet decided</h6>
 <h3>Download:</h3>
 <h6>You can download the project <a>SOON</a>.</h6>
+<hr>
+<h6>Thank you so much for reading this, here have a ♥</h6>
