@@ -1,9 +1,4 @@
 /*
-  Code created by Steinar <steinar[at]leikirnir.is>
-  All rights reserved
-*/
-
-/*
   Variables
 */
 const version = '1.0';
