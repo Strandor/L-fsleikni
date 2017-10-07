@@ -171,7 +171,6 @@ logoImg.src = 'assets/image/logo.png';
 var credit = new Image();
 credit.src = 'assets/image/credits.png';
 
-
 // Draw the menu
 function drawGame() {
     //Default Background
