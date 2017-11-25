@@ -101,6 +101,9 @@ document.onkeypress = function(e) { // Listen if user clicks on a key
         }
     }
 };
+/*
+This is for when user presses the escape key
+*/
 document.onkeydown = function(evt) {
     evt = evt || window.event;
     var isEscape = false;
