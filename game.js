@@ -74,7 +74,7 @@ canvas.addEventListener('click', function() {
       var audio = new Audio('assets/sound/start.ogg');
           audio.play();
           setState(GAMESTATE.SELECTOR);
-       }
+       
     }
   } else if(currentGameState == GAMESTATE.END) {
     if(endMenuContains() == true) {
