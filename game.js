@@ -76,7 +76,7 @@ canvas.addEventListener('click', function() {
           setState(GAMESTATE.SELECTOR);
     } 
   } else if(currentGameState == GAMESTATE.GAME) {
-      if(evt.keyCode == 32 && canJump == true){
+      if(canJump == true){
           canJump = false;
           hivY = hivY - 100;
       }
