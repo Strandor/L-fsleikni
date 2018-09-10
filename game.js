@@ -74,8 +74,12 @@ canvas.addEventListener('click', function() {
       var audio = new Audio('assets/sound/start.ogg');
           audio.play();
           setState(GAMESTATE.SELECTOR);
-       
-    }
+    } 
+  } else if(currentGameState == GAMESTATE.GAME) {
+      if(evt.keyCode == 32 && canJump == true){
+          canJump = false;
+          hivY = hivY - 100;
+      }
   } else if(currentGameState == GAMESTATE.END) {
     if(endMenuContains() == true) {
       stopEnd();
