@@ -70,6 +70,11 @@ canvas.addEventListener('click', function() {
   } else if(currentGameState == GAMESTATE.MENU) {
     if(mouseX >= canvas.width-credit.width*1.5 && mouseY >= canvas.height-credit.width) {
       openCredits();
+    } else {
+      var audio = new Audio('assets/sound/start.ogg');
+          audio.play();
+          setState(GAMESTATE.SELECTOR);
+       }
     }
   } else if(currentGameState == GAMESTATE.END) {
     if(endMenuContains() == true) {
